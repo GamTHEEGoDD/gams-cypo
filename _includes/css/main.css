@@ -514,16 +514,19 @@ footer .footer-below {
     margin-right: auto;
 }
 
+/* This is the default state */
 .resume-button {
-    color: #{{ site.color.secondary-dark }};
-    border-color: #{{ site.color.secondary-dark }};
+  background-color: transparent; /* Makes the background see-through */
+  border-color: black;            /* Sets the outline to black */
+  color: black;                 /* Sets the text to black */
 }
 
+/* This is the state when the mouse is on top of it */
 .resume-button:hover {
-    background-color: #{{ site.color.secondary-dark }};
-    color: #fff;
-    border-color: #{{ site.color.secondary-dark }};
+  background-color: black;        /* Sets background to black on hover */
+  color: white;                 /* Sets text to white on hover */
 }
+
 
 .modal-view-button {
     background-color: #{{ site.color.secondary-dark }};
