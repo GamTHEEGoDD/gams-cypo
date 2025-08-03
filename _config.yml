@@ -68,6 +68,6 @@ defaults:
     values:
       permalink: ""
 
-collections:
-  labs:
-    output: true
+#collections:
+#  labs:
+#    output: true
